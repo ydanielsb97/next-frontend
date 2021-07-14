@@ -1,13 +1,17 @@
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #191a20de;
+    background-color: #fff;
     height: 100vh;
     width: 100vw;
 }
 
 .form {
+    width: 400px;
+    height: auto;
+    background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0px 0px 99px 4px #727070;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 47px -10px #ffffff59;
 }

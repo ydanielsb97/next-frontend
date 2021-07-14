@@ -3,7 +3,7 @@ import { API } from "../../config";
 import { ILoginData } from "../../interfaces/loginData.interface";
 
 const postLogin = async (loginData: ILoginData) => {
-  const res = await axios.post(`${API}/login`, { loginData });
+  const res = await axios.post(`${API}/auth/login`, { loginData });
 
   console.log(res);
 
